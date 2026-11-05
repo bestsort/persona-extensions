@@ -49,6 +49,7 @@ scripts/index.py check
 
 step signature
 scripts/sign-index.py verify
+python3 -I scripts/test-sign-index.py
 
 if [ "${1:-}" = release ]; then
   shift
